@@ -1,0 +1,204 @@
+body{
+	/*background: black;*/
+	font-family: "Serif";
+}
+
+
+
+.navbar{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+}
+
+
+.navbar-brand img{
+	width: 60px;
+	height: 50px;
+}
+
+
+
+.bodycolor{
+	background-color: black;
+	/*background: linear-gradient(black, white)*/
+}
+
+.page{
+	width: 1000px;
+	min-height: 1000px;
+	background: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -10px;
+	box-shadow: 0px 0px 150px #a39c90;
+
+	/*border: 1px solid black;*/
+}
+
+.top-bar{
+	width: 1000px;
+	height: 220px;
+	background-color: white;
+	text-align: center;
+	border-bottom: 1px solid black;
+}
+
+.top-bar img{
+	width: 350px;
+	height: 150px;
+}
+
+.menu{
+	text-align: center;
+	padding: 25px;
+}
+
+.menu ul{
+	display: inline-block;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.menu li{
+	display: inline;
+	margin: 15px;
+}
+
+.menu a{
+	text-decoration: underline;
+	color: black;
+	padding: 10px;
+}
+
+.menu a:hover{
+	/*animation: wobble 1s infinite;*/
+	font-weight: bold;
+	color: #99835d;
+	
+}
+
+/*@keyframes wobble{
+	0% { transform: rotate(0deg); }
+	25% { transform: rotate(-2deg); }
+	75% { transform: rotate(2deg); }
+	100% { transform: rotate(0deg); }
+}*/
+
+.content{
+	text-align: center;
+	background: linear-gradient(#fff6e6, #d9c49c);
+	padding-top: 0px;
+	min-height: 800px;
+}
+
+
+
+.content h4{
+	/*padding: 30px;*/
+}
+
+.petvettext{
+	padding:500px 150px 150px 120px;
+	background-image: url("images/petvet.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+.groomtext{
+	padding: 30px 500px 350px 50px;
+	margin-top: -20px;
+	margin-bottom: -50px;
+	background-image: url("images/grooming.jpg");
+	background-position: center;
+	background-size: cover;
+
+}
+
+.section{
+	min-height: 600px;
+	
+}
+
+.gallery{
+	padding: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 40px;
+	box-shadow: 0px 0px 50px  black;
+}
+
+
+.gallery img{
+	width: 270px;
+	height: 200px;
+	padding: 10px;
+	/*box-shadow: 0px 0px 50px  black;*/
+}
+
+.slideshow{
+	position: relative;
+	height: 350px;
+}
+
+.slideshow img{
+	width: 500px;
+	height: 320px;
+	border: 3px solid black;
+	border-radius: 70px;
+}
+
+.slideshow figure{
+	position: absolute;
+	width: 100%;
+	margin: 0;
+	opacity: 0;
+}
+
+#slide1{
+	animation: xfade 7.5s 0s infinite;
+}
+
+#slide2{
+	animation: xfade 7.5s 2.5s infinite;
+}
+
+#slide3{
+	animation: xfade 7.5s 5s infinite;
+}
+
+@keyframes xfade{
+	0% { opacity: 0; }
+	15% { opacity: 1; }
+	40% { opacity: 1; }
+	60% { opacity: 0; }
+}
+
+.social{
+	height: 60px;
+}
+
+.social img{
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.social img:hover{
+	animation: grow 0.5s forwards;
+}
+
+@keyframes grow{
+	100% {height: 60px; margin-top: 0px; margin-bottom: 0px;}
+}
+
+
+
+
+
+
+
+
